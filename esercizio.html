@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Description"
+      content="Primi passi operativi per creare un modello di pagina HTML per un
+    post, scopri come iniziare in modo facile."
+    />
+    <title>Sviluppo diuna paginaweb - Blog Epicode</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="./assets/img/logo.svg" alt="Logo-presentazione" width="30%" />
+      <ul id="menù">
+        <li style="display: inline; margin-right: 5%">
+          <strong><a href="#">Home</a></strong>
+        </li>
+        <li style="display: inline; margin-right: 5%">
+          <strong><a href="#"> Articoli</a></strong>
+        </li>
+        <li style="display: inline; margin-right: 5%">
+          <strong><a href="#">Lavora con noi</a></strong>
+        </li>
+      </ul>
+      <h3>
+        Come creare un template per i post di
+        <a href="#">Mario Rossi</a> ("Pubblicato il 25/10/2020")
+      </h3>
+    </header>
+    <hr />
+    <main>
+      <p>
+        La prima cosa dafare è suddividere in blocchi logici la prima pagina,
+        identificando le parti comuni da applicare a tutte le pagine
+      </p>
+      <p>Le varie aree saranno quindi suddivise in:</p>
+      <ul>
+        <li>Contenuti di intestazione del tag &lt;header&gt;</li>
+        <li>
+          Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)
+        </li>
+        <li>
+          Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;
+        </li>
+      </ul>
+      <h3>Formattazione del codice</h3>
+      <p>
+        Il testo dell'articolo dovrà essere formattato per identifficare tutte
+        le parti da selezionare con i CSS. Peciò i passi saranno:
+      </p>
+      <ol>
+        <li>
+          Progettare il markup assegnato ad ogni specifico testo il tag
+          appropriato
+        </li>
+        <li>
+          Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il
+          basso
+        </li>
+        <li>Applicare gli stili CSS</li>
+      </ol>
+      <p>
+        L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la
+        diffusione pressochè totale.
+      </p>
+      <hr />
+      <table style="border: 1px solid black">
+        <caption style="border: 1px solid black">
+          Diffusione dei CSS
+        </caption>
+        <thead>
+          <tr>
+            <th style="border: 1px solid black">Anno</th>
+            <th style="border: 1px solid black">% di utilizzo</th>
+            <th style="border: 1px solid black">Supporto browser</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border: 1px solid black">2000</td>
+            <td style="border: 1px solid black">20%</td>
+            <td style="border: 1px solid black">17%</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black">2002</td>
+            <td style="border: 1px solid black">35%</td>
+            <td style="border: 1px solid black">22%</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black">2004</td>
+            <td style="border: 1px solid black">45%</td>
+            <td style="border: 1px solid black">42%</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black">2008</td>
+            <td style="border: 1px solid black">80%</td>
+            <td style="border: 1px solid black">51%</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black">2012</td>
+            <td style="border: 1px solid black">100%</td>
+            <td style="border: 1px solid black">76%</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Un test di validazione potrà essere fatto tramite il tool online
+        <a href="https://jigsaw.w3.org/css-validator/" target="_blank"
+          >-LINK ESTERNO-</a
+        >dedicato allo scopo. Una volta ottimizzato ottimizzato il tutto, avremo
+        raggiunto il nostro obiettivo ed essere stati dei veri developers come
+        loro:
+      </p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Yzp_MPyoIqU?si=8Ce3v7QNEmC1Z7hY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      >
+      </iframe>
+      <hr />
+      <h4>
+        Vuoi rimanere aggiornato su altre novità del blog? iscriviti alla nostra
+        newsletter:
+      </h4>
+      <form>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Inserisci la tua Email" />
+        <div>
+          <label for="button">Iscriviti!</label>
+          <button>Invia</button>
+        </div>
+      </form>
+      <aside>
+        <h3>Articoli Correlati</h3>
+        <p>
+          <a
+            href="https://www.html.it/faq/come-faccio-a-validare-il-codice-html/"
+            target="_blank"
+            >Validare il codice Html</a
+          >
+          <br />
+          Categoria: develop <br />
+          Data: 18-9-2020
+        </p>
+        <p>
+          <a
+            href="https://www.html.it/articoli/gestione-degli-errori/"
+            target="_blank"
+            >Correggere la sintassi</a
+          >
+          <br />
+          Categoria: develop <br />
+          Data: 16-9-2020
+        </p>
+        <p>
+          <a
+            href="https://www.html.it/articoli/il-giusto-peso-delle-pagine/"
+            target="_blank"
+            >Meno Kb nella pagina</a
+          >
+          <br />
+          Categoria: ottimizzazione <br />
+          Data: 30-9-2020
+        </p>
+      </aside>
+    </main>
+    <footer style="color: beige; background-color: black">
+      Blog Epicode &copy;2023 <br />
+      Testata online di Mario Rossi, registrata con prot. n213/2018 - via Luigi
+      Einaudi 2 - Milano. P.IVA 00112233. <br />
+      <a href="mailto:info@epicode.school">-info@epicode.school-</a>
+    </footer>
+  </body>
+</html>
