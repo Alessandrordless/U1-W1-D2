@@ -13,98 +13,109 @@
 
   <body style="background-color: beige">
     <header style="background: linear-gradient(181deg, #ff2751, #00d9da)">
-      <img src="./assets/img/logo.svg" alt="Logo-presentazione" width="30%" />
-      <ul style="display: flex; justify-content: center">
-        <li style="display: inline; margin-right: 5%">
-          <strong>
-            <a style="text-decoration: none" href="#">Home</a>
-          </strong>
-        </li>
-        <li style="display: inline; margin-right: 5%">
-          <strong>
-            <a style="text-decoration: none" href="#"> Articoli</a>
-          </strong>
-        </li>
-        <li style="display: inline; margin-right: 5%">
-          <strong>
-            <a style="text-decoration: none" href="#">Lavora con noi</a>
-          </strong>
-        </li>
-      </ul>
-      <h2>
-        Come creare un template per i post (di
-        <a style="text-decoration: none" href="#">Mario Rossi)</a>Pubblicato il 25/10/2020
-      </h2>
+      <figure>
+        <img src="./assets/img/logo.svg" alt="Logo-presentazione" width="30%" />
+      </figure>
+      <nav>
+        <ul style="display: flex; justify-content: center">
+          <li style="display: inline; margin-right: 5%">
+            <strong>
+              <a style="text-decoration: none" href="#">Home</a>
+            </strong>
+          </li>
+          <li style="display: inline; margin-right: 5%">
+            <strong>
+              <a style="text-decoration: none" href="#"> Articoli</a>
+            </strong>
+          </li>
+          <li style="display: inline; margin-right: 5%">
+            <strong>
+              <a style="text-decoration: none" href="#">Lavora con noi</a>
+            </strong>
+          </li>
+        </ul>
+      </nav>
     </header>
     <hr />
     <main>
-      <p>
-        La prima cosa dafare è suddividere in blocchi logici la prima pagina, identificando le parti comuni da applicare
-        a tutte le pagine
-      </p>
-      <p>Le varie aree saranno quindi suddivise in:</p>
-      <ul>
-        <li>Contenuti di intestazione del tag &lt;header&gt;</li>
-        <li>Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)</li>
-        <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;</li>
-      </ul>
-      <h3>Formattazione del codice</h3>
-      <p>
-        Il testo dell'articolo dovrà essere formattato per identifficare tutte le parti da selezionare con i CSS. Peciò
-        i passi saranno:
-      </p>
-      <ol>
-        <li>Progettare il markup assegnato ad ogni specifico testo il tag appropriato</li>
-        <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
-        <li>Applicare gli stili CSS</li>
-      </ol>
-      <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
+      <section>
+        <h2>
+          Come creare un template per i post (di
+          <a style="text-decoration: none" href="#">Mario Rossi)</a>Pubblicato il 25/10/2020
+        </h2>
+        <p>
+          La prima cosa dafare è suddividere in blocchi logici la prima pagina, identificando le parti comuni da
+          applicare a tutte le pagine
+        </p>
+        <p>Le varie aree saranno quindi suddivise in:</p>
+        <ul>
+          <li>Contenuti di intestazione del tag &lt;header&gt;</li>
+          <li>Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)</li>
+          <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Formattazione del codice</h3>
+        <p>
+          Il testo dell'articolo dovrà essere formattato per identifficare tutte le parti da selezionare con i CSS.
+          Perciò i passi saranno:
+        </p>
+        <ol>
+          <li>Progettare il markup assegnato ad ogni specifico testo il tag appropriato</li>
+          <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+          <li>Applicare gli stili CSS</li>
+        </ol>
+        <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
+      </section>
       <hr />
-      <table style="border: 1px solid black; border-collapse: collapse; margin-left: 1%">
-        <caption style="border: 1px solid black">
-          Diffusione dei CSS
-        </caption>
-        <thead>
-          <tr>
-            <th style="border: 1px solid black">Anno</th>
-            <th style="border: 1px solid black">% di utilizzo</th>
-            <th style="border: 1px solid black">Supporto browser</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="border: 1px solid black">2000</td>
-            <td style="border: 1px solid black">20%</td>
-            <td style="border: 1px solid black">17%</td>
-          </tr>
-          <tr>
-            <td style="border: 1px solid black">2002</td>
-            <td style="border: 1px solid black">35%</td>
-            <td style="border: 1px solid black">22%</td>
-          </tr>
-          <tr>
-            <td style="border: 1px solid black">2004</td>
-            <td style="border: 1px solid black">45%</td>
-            <td style="border: 1px solid black">42%</td>
-          </tr>
-          <tr>
-            <td style="border: 1px solid black">2008</td>
-            <td style="border: 1px solid black">80%</td>
-            <td style="border: 1px solid black">51%</td>
-          </tr>
-          <tr>
-            <td style="border: 1px solid black">2012</td>
-            <td style="border: 1px solid black">100%</td>
-            <td style="border: 1px solid black">76%</td>
-          </tr>
-        </tbody>
-      </table>
+      <div id="tab">
+        <table style="border: 1px solid black; border-collapse: collapse; margin-left: 25%; width: 50%">
+          <caption style="border: 1px solid black">
+            Diffusione dei CSS
+          </caption>
+          <thead>
+            <tr>
+              <th style="border: 1px solid black">Anno</th>
+              <th style="border: 1px solid black">% di utilizzo</th>
+              <th style="border: 1px solid black">Supporto browser</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="border: 1px solid black">2000</td>
+              <td style="border: 1px solid black">20%</td>
+              <td style="border: 1px solid black">17%</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black">2002</td>
+              <td style="border: 1px solid black">35%</td>
+              <td style="border: 1px solid black">22%</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black">2004</td>
+              <td style="border: 1px solid black">45%</td>
+              <td style="border: 1px solid black">42%</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black">2008</td>
+              <td style="border: 1px solid black">80%</td>
+              <td style="border: 1px solid black">51%</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black">2012</td>
+              <td style="border: 1px solid black">100%</td>
+              <td style="border: 1px solid black">76%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <p>
         Un test di validazione potrà essere fatto tramite il tool online
         <a href="https://jigsaw.w3.org/css-validator/" target="_blank">-LINK ESTERNO-</a>dedicato allo scopo. <br />
         Una volta ottimizzato ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri
         developers come loro:
       </p>
+
       <iframe
         style="margin-left: 1%"
         width="560"
@@ -118,14 +129,16 @@
       </iframe>
       <hr />
       <h4>Vuoi rimanere aggiornato su altre novità del blog? iscriviti alla nostra newsletter:</h4>
-      <form style="margin-left: 1%">
-        <label for="email" id="indirizzo">Email:</label>
-        <input type="email" name="indirizzo" placeholder="Inserisci la tua Email" />
-        <div style="margin-top: 2%">
-          <p style="display: inline">Iscriviti!</p>
-          <button>Invia</button>
-        </div>
-      </form>
+      <div id="form" style="border: dotted 2px black; width: 30%; display: flex; justify-content: center">
+        <form style="margin-left: 1%">
+          <label for="email" id="indirizzo">Email:</label>
+          <input type="email" name="indirizzo" placeholder="Inserisci la tua Email" />
+          <div style="margin-top: 2%">
+            <p style="display: inline">Iscriviti!</p>
+            <button>Invia</button>
+          </div>
+        </form>
+      </div>
       <aside style="margin-bottom: 1% 1%">
         <h3 style="margin-left: 40%">Articoli Correlati</h3>
         <div id="Correlati" style="display: flex; justify-content: space-evenly; width: 90%; margin-top: 1%">
